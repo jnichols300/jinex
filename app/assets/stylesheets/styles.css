@@ -1,0 +1,21 @@
+.logo-j {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type=submit] {
+  color: white;
+  background-color: #45B29D;
+
+}
+
+.form-custom {
+  padding-top: 20px;
+  display: block;
+}
+
+.move-right {
+  padding-left: 30px;
+}
+ul li {
+  color: black;
+}
