@@ -2,6 +2,10 @@
   <h2><a href="<%= @link.url %>"><%= @link.title %></a><br> <small>Submitted by <%= @link.user.email %></small></h2>
 </div>
 
+<div>
+  <%= @link.description %>
+</div>
+
 <div class="btn-group">
 	<%= link_to 'Visit URL', @link.url, class: "btn btn-primary" %>
 </div>
