@@ -1,8 +1,2 @@
 I want to implement a comment and image feature on the site. I think that would be really helpful. Probably use some jquery for it or some other form of javascript. I didn't make an ERD for this project. I had one for my ESPN API I was trying to use before, but it didn't work out so I scratched it on Tuesday.
 
-I want users to be able to submit links of their choosing for others to view.
-I want users to be able to upvote and downvote links depending on their choosing.
-I want users to be able to create an account and cancel their account.
-I want users to be able to edit their links when they're signed in and not letting others have access.
-I want users to be able to delete their links incase they don't want them up for whatever reason.
-I want users to be able to see who posted the link and how many upvotes/downvotes they received to judge the link for themselves.
