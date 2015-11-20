@@ -1,28 +1,2 @@
-== README
+I want to implement a comment and image feature on the site. I think that would be really helpful. Probably use some jquery for it or some other form of javascript. I didn't make an ERD for this project. I had one for my ESPN API I was trying to use before, but it didn't work out so I scratched it on Tuesday.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
