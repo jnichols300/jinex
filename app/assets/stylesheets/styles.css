@@ -1,6 +1,7 @@
-body {
-  background-color: #111;
+html, body {
+  height: 100%;
 }
+
 #override-logo {
   font-family: 'Open Sans', sans-serif;
   font-size: 42px;
@@ -67,6 +68,14 @@ input[type=submit] {
 
 .img-back {
   background-image: url(BackgroundforJinexNew.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul li a {
+  text-transform: uppercase;
+  color: #45B29D;
 }
 
 h2 a {

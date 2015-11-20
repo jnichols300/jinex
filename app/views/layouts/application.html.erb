@@ -8,7 +8,7 @@
   <%= csrf_meta_tags %>
   <%=stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Open+Sans:700' %>
 </head>
-<body>
+<body class="img-back">
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
   <header class="navbar" role="navigation">
@@ -17,11 +17,10 @@
           <div id="override-logo" class="navbar-brand">JIN<span>EX<span><%= link_to "", root_path %></div>
           <nav class="collapse navbar-collapse navbar-ex1-collapse">
           	<% if user_signed_in? %>
-  						<ul class="nav navbar-nav navbar-right">
+  						<ul id="custom" class="nav navbar-nav navbar-right">
                 <li><%= link_to 'Home', '/' %></li>
-  							<li><%= link_to 'Submit', new_link_path %></li>
+  							<li><%= link_to 'New Link', new_link_path %></li>
   							<li><%= link_to 'Account', edit_user_registration_path %></li>
-                <li><%= link_to 'About', 
   							<li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
   						</ul>
   					<% else %>
