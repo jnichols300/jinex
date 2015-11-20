@@ -62,6 +62,17 @@ input[type=submit] {
   display: block;
 }
 
+.form-custom-area {
+  padding-top: 20px;
+  display: block;
+  width: 200px;
+}
+
+textarea {
+  min-width: 230px;
+  height:150px;
+}
+
 .move-right {
   padding-left: 30px;
 }
