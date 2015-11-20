@@ -1,10 +1,58 @@
-.logo-j {
+body {
+  background-color: #111;
+}
+#override-logo {
   font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  color: #E27A3F;
+  margin-top: -10px;
 }
 
+#override-logo:hover {
+  color: #E27A3F;
+}
+
+#override-logo:hover span {
+  color: #DF5A49;
+}
+
+
+input{
+    padding: 5px;
+    border: solid 1px #d5d5d5;
+    outline: 0;
+    font: 13px Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF;
+    }
+
+input:hover,.preview-block input:focus{
+    border-color: #b1b1b1;
+    }
+
+.form label {
+    font: 14px Verdana, Tahoma, sans-serif;
+    margin-left: 10px;
+    color: #555555;
+    width: 80px;
+    display: inline-block;
+    }
+
+.submit input {
+    width: auto;
+    padding: 9px 20px;
+    background: #EFC94C;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    }
+
 input[type=submit] {
-  color: white;
-  background-color: #45B29D;
+  width: 120px;
+  color: black;
+  margin-top: 20px;
+  background-color: #EFC94C;
 
 }
 
@@ -16,6 +64,16 @@ input[type=submit] {
 .move-right {
   padding-left: 30px;
 }
-ul li {
-  color: black;
+
+.img-back {
+  background-image: url(BackgroundforJinexNew.png);
+}
+
+h2 a {
+  font-size: 20px;
+  color: #334D5C;
+}
+
+.author {
+  font-size: 12px;
 }
