@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# use seed data! It's very helpful for people to collaborate on your code base. In addition to this, it's nice in case you have to reset your dev env somewhere.

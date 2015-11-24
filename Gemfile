@@ -34,6 +34,8 @@ gem 'devise'
 gem 'rspec'
 gem 'activerecord'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
+
+# nice i love this gem.
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'google-webfonts', '~> 0.2.0'
 gem 'pg'

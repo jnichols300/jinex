@@ -1,7 +1,8 @@
 class LinksController < ApplicationController
   before_action :set_link, only: [:show, :edit, :update, :destroy]
   before_filter :authenticate_user!, except: [:index, :show]
-
+  # looks ..... scaffolded, which is ok so long as you know what it does.
+  # Avoid generators if you can, creates alot of extra files you won't use.
   # GET /links
   # GET /links.json
   def index
@@ -28,6 +29,7 @@ class LinksController < ApplicationController
     @link = current_user.links.build(link_params)
 
     respond_to do |format|
+      # as we learned in class, the respond_to allows us to respond to JSON, not always neccessary, but is if you want a JSON endpoint for your database.
       if @link.save
         format.html { redirect_to @link, notice: 'Link was successfully created.' }
         format.json { render :show, status: :created, location: @link }
