@@ -1,5 +1,4 @@
-##Installation Instructions
-Access the web app here: [@Now](https://atnow.herokuapp.com/)
+
 
 ##How to use
 * Signup and Login to upvote/downvote the links provided or create your own!
