@@ -1,10 +1,10 @@
 
 
-##How to use
+==How to use
 * Signup and Login to upvote/downvote the links provided or create your own!
 
 
-##Technologies used
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Rails](http://rubyonrails.org/)
+==Technologies used
+Ruby :: https://www.ruby-lang.org/en/
+Rails :: http://rubyonrails.org/
 
